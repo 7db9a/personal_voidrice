@@ -1,3 +1,5 @@
+Keeping track of changes to dotfiles in $HOME per LARBS. Don't use my version.
+
 # The Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
 
 These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
