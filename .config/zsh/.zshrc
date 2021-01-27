@@ -73,5 +73,13 @@ bindkey '^[[P' delete-char
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
+# Search history
+#bindkey '^r' history-beginning-search-backward
+bindkey '^r' history-incremental-search-backward
+bindkey '^R' history-incremental-pattern-search-backward
+
+# Append cmd history incrementally instead of on shell exit.
+setopt INC_APPEND_HISTORY
+
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
