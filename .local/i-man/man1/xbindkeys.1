@@ -1,0 +1,19 @@
+.TH XBINDKEY 1
+.SH NAME
+xbindkey - Personalized Manpage
+.SH DESCRIPTION
+.B xbindkey
+bind keys to command independent of window manager.
+
+.SH EXAMPLE
+Map F4 to open a README.
+
+In $HOME/.xbindkeysrc, add the following:
+
+.IR "st -e vim $HOME/README.md"
+
+.IR F4
+
+Reload configuration:
+
+$ killall -s1 xbindkeys && xbindkeys -f $HOME/.xbindkeysrc
