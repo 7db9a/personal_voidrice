@@ -152,3 +152,5 @@ fi
 
 # Switch escape and caps if tty and no passwd required:
 sudo -n loadkeys ${XDG_DATA_HOME:-$HOME/.local/share}/larbs/ttymaps.kmap 2>/dev/null
+
+# if [-e /home/daveamd/.nix-profile/etc/profile.d/nix.sh ]; then . /home/daveamd/.nix-profile/etc/profile.d/nix.sh; fi
