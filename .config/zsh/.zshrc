@@ -86,3 +86,5 @@ source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.
 
 
 source $HOME/.nix-profile/etc/profile.d/nix.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
