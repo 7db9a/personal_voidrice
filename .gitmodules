@@ -1,3 +1,7 @@
 [submodule ".config/mpv/scripts/mpvSockets"]
 	path = .config/mpv/scripts/mpvSockets
 	url = https://github.com/wis/mpvSockets.git
+[submodule ".fzf/install"]
+	path = .fzf/install
+	url = https://github.com/junegunn/fzf.git
+	branch = 0.25.1
